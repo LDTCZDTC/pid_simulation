@@ -3,8 +3,8 @@ from matplotlib import pyplot as plt
 
 
 class pid_control_data:
-    kp = 0.8
-    ki = 3
+    kp = 0
+    ki = 0
     kd = 0
     err = 0
     last_err = 0
